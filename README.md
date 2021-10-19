@@ -27,3 +27,46 @@ namespace CSharpStudy
 4. `static void Main(string[] args)` this line code represent where our Program initialize
 
 > **Note:** Every C# statement ends with a semicolon
+***
+
+## WriteLine or Write
+
+The difference between `Console.WriteLine()`and `Console.Write()` is that `WriteLine()` prints the output with a new line each time, and `Write()` prints on the same line.
+
+**Example:**
+
+```C#
+Console.WriteLine("Hello World!");
+Console.WriteLine("I will print on a new line.");
+
+Console.Write("Hello World! ");
+Console.Write("I will print on the same line.");
+```
+***
+
+## C# comments
+
+Single-line comments start with two forward slashes `//`.
+
+Any text between `//`and the end of the line is ignored by C# (will not be executed).
+
+**Examples:**
+
+```C#
+// This is a comment
+Console.WriteLine("Hello World");
+
+Console.WriteLine("Hello World"); // This is a comment
+```
+
+Multi-line comments start with `/*` and ends with `*/` .
+
+Any text between `/*` and `*/` will be ignored by C#.
+
+**Examples:**
+
+```C#
+/* The code below will print the words Hello World
+to the screen, and it is amazing */
+Console.WriteLine("Hello World");
+```
