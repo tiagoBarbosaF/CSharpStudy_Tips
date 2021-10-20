@@ -2,25 +2,24 @@
 
 > **Note:** Many blocks of code in the README file are in the Program.cs file where you can test at runtime.
 
-## Index
 
+**`--- INDEX ---`**
 - [CSharp Studies - Tips and Tricks!](#csharp-studies---tips-and-tricks)
-  - [Index](#index)
-  - [Syntax C](#syntax-c)
-    - [Console Application example => Program.cs](#console-application-example--programcs)
-  - [WriteLine or Write](#writeline-or-write)
+- [Syntax C](#syntax-c)
+  - [Console Application example => Program.cs](#console-application-example--programcs)
+- [WriteLine or Write](#writeline-or-write)
   - [C# comments](#c-comments)
-  - [C# variables](#c-variables)
-    - [Declaring (creating) variables](#declaring-creating-variables)
+- [C# variables](#c-variables)
+  - [Declaring (creating) variables](#declaring-creating-variables)
   - [Constants variable](#constants-variable)
   - [Other variables](#other-variables)
   - [Concatenation](#concatenation)
   - [Declare many variables](#declare-many-variables)
   - [General rules for constructing variables](#general-rules-for-constructing-variables)
 
-## Syntax C#
+# Syntax C#
 
-### Console Application example => Program.cs
+## Console Application example => Program.cs
 
 **Example:**
 
@@ -45,7 +44,7 @@ namespace CSharpStudy
 > **Note:** Every C# statement ends with a semicolon
 ***
 
-## WriteLine or Write
+# WriteLine or Write
 
 The difference between `Console.WriteLine()`and `Console.Write()` is that `WriteLine()` prints the output with a new line each time, and `Write()` prints on the same line.
 
@@ -88,7 +87,7 @@ Console.WriteLine("Hello World");
 ```
 ***
 
-## C# variables
+# C# variables
 
 Variables ate containers for storing data values. In C#, there are different types of variables (defined with different keywords), for example:
 
@@ -98,7 +97,7 @@ Variables ate containers for storing data values. In C#, there are different typ
 - `string` - stores text, such as `"Hello World"`. String values are surrounded by double quotes
 - `bool` - stores values with two states: `true` or `false`
 
-### Declaring (creating) variables
+## Declaring (creating) variables
 
 To create a variable, you must specify the type and assign it a value:
 
